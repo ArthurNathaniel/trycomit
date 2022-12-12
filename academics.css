@@ -1,0 +1,60 @@
+.curriculum{
+    width: 100%;
+    padding: 0 10%;
+}
+.curriculum h1{
+    color: #0c055b;
+    font-size: 40px;
+    text-align: center;
+    padding-block: 20px;
+}
+
+/* Pre-school */
+.welcome-message-preschool h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    color: #0c055b;
+}
+.pre-school-message{
+    background-color: #66666747;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.pre-school-text{
+   display: flex;
+   justify-content: center;
+   align-self: center;
+  
+   font-size: 30px;
+}
+
+.pre-school-container{
+    width: 100%;
+    padding: 0 10%;
+}
+.pre-school-container h2{
+    font-size: 30px;
+    color: #0c055b;
+    text-transform: uppercase;
+}
+
+.primary-paragraphy{
+    width: 100%;
+    padding: 0 10%;
+    margin-top: 50px;
+}
+
+.jhs-text h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    color: #0c055b;
+}
+
+.jhs-paragraphy{
+    width: 100%;
+    padding: 0 10%;
+}
+
