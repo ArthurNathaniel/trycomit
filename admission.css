@@ -92,4 +92,40 @@
     width: 100%;
     margin: 0 auto;
  }   
+ .how-to-apply-text h2{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .how-to-apply-text p{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-block: 20px;
+ }
+
+ .steps{
+    display: block;
+    width: 100%;
+    margin: 0 auto;  
+ }
+
+ .steps h1{
+    display: block;
+    width: 100%;
+    margin: 0 auto;  
+ }
+ .steps ul {
+    display: block;
+    width: 100%;
+    margin: 0 auto; 
+    padding-block: 10px; 
+ }
+
+ .steps p{
+    display: block;
+    width: 100%;
+    margin: 0 auto; 
+    padding-block: 20px; 
+ }
 }

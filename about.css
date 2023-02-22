@@ -81,16 +81,17 @@
 }
 
 .accreditation {
-    padding: 0 10%;
+    /* padding: 0 5%; */
     display: grid;
     grid-template-columns: 30% 70%;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .accreditation-image img {
     width: 80%;
 
 }
+
 
 
 
@@ -124,50 +125,37 @@
 
 
 /*campus */
-.campus {
+.gallery-heading {
+    display: block;
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery-heading h1 {
+    color: #0c055b;
+    font-size: 35px;
+    padding-block: 20px;
+}
+
+.basic-school {
+    text-align: center;
+}
+
+.basic-school h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.basic-school p{
+    text-align: center;
+    padding: 0 5%;
+}
+
+.basic-school iframe{
     padding: 0 10%;
+    padding-top: 20px;
 }
-
-.campus h1 {
-    font-size: 45px;
-    color: #0c055b;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    background: linear-gradient(30deg, #0096d6, #0096d6);
-    background-repeat: no-repeat;
-    background-size: 10% 5px;
-    background-position: bottom;
-
-}
-
-.campus h2 {
-    font-size: 40px;
-    color: #0c055b;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-
-}
-
-.location {
-    margin-block: 40px;
-    background-color: #0c055b;
-    color: #fff;
-    text-align: center;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-}
-
-.location h1 {
-    font-size: 45px;
-    text-transform: uppercase;
-    color: #fff;
-    padding-block: 10px;
-    font-family: 'Bebas Neue', cursive;
-
-}
-
 
 @media all and (max-width: 900px) {
     .welcome-message {
@@ -228,19 +216,22 @@
         margin: 0 auto;
         margin-top: 20px;
     }
-    .vision p{
+
+    .vision p {
         width: 100%;
     }
-    .vision-image{
+
+    .vision-image {
         display: block;
         width: 100%;
-        margin: 0 auto;  
+        margin: 0 auto;
     }
-    .vision-image img{
+
+    .vision-image img {
         display: block;
         width: 100%;
-        margin: 0 auto; 
-        margin-top: 40px; 
+        margin: 0 auto;
+        margin-top: 40px;
     }
 
 
@@ -269,52 +260,61 @@
         margin: 0 auto;
         margin-top: 20px;
     }
-    .mission p{
+
+    .mission p {
         width: 100%;
         margin-bottom: 40px;
     }
-    .mission-image{
+
+    .mission-image {
         display: block;
         width: 100%;
-        margin: 0 auto;  
+        margin: 0 auto;
     }
-    .mission-image img{
+
+    .mission-image img {
         display: block;
         width: 100%;
-        margin: 0 auto; 
-        margin-top: 40px; 
+        margin: 0 auto;
+        margin-top: 40px;
     }
-    .academic-head h1{
+
+    .academic-head h1 {
         display: block;
         width: 100%;
         margin: 0 auto;
         padding-bottom: 20px;
     }
-    .aiming{
+
+    .aiming {
         display: block;
         width: 100%;
-        margin: 0 auto; 
+        margin: 0 auto;
         margin-bottom: 40px;
     }
-    .aiming-text{
+
+    .aiming-text {
         display: block;
         width: 100%;
-        margin: 0 auto;  
+        margin: 0 auto;
     }
-    .aiming-img{
+
+    .aiming-img {
         display: block;
         width: 100%;
-        margin: 0 auto; 
+        margin: 0 auto;
         display: none;
     }
-    .aiming-img img{
+
+    .aiming-img img {
         display: block;
         width: 100%;
-        margin: 0 auto;  
+        margin: 0 auto;
     }
-    .campus{
+
+    .campus {
         display: block;
         width: 100%;
-        margin: 0 auto;  
+        margin: 0 auto;
     }
 }
